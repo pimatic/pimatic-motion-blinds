@@ -1,17 +1,10 @@
-pimatic-plugin-template
+pimatic-motion-blinds
 =======================
 
-See the [development guide](https://pimatic.teamemo.com/Development) for
-details.
+pimatic plugin for controlling Motion Blinds from Coulisee B.V. including derivative products such as OmniaBlinds.
 
-Some Tips:
+## Retrieving Your Key
 
-### Adding package dependencies
-* You can add other package dependencies by running `npm install something --save`. With the `--save`
-  option npm will auto add the installed dependency in your `package.json`
-* You can always install all dependencies in the package.json with `npm install`
+The Motion Blinds API uses a 16 character key that can be retrieved from the official "Motion Blinds" app for iOS or Android. Open the app, click the 3 dots in the top right corner, go to "Settings", go to "About MOTION", then quickly tap the screen five times. A popup will appear showing your key.
 
-### Commit your changes to git
-* Add all edited files with `git add file`. For example: `git add package.json` then commit you changes 
-  with `git commit`.
-* After that you can push you commited work to github: `git push`
+Support thanks to https://github.com/jhurliman/node-motionblinds

@@ -1,14 +1,14 @@
-{ 
-  "name": "pimatic-plugin-template",
+{
+  "name": "pimatic-motion-blinds",
   "description": "The plugin description",
   "author": "Your Name <you@example.com> (http://your-website)",
   "license": "GPL-2.0",
-  "main": "my-plugin",
+  "main": "motion-blinds",
   "files": [
-    "my-plugin.coffee",
+    "motion-blinds.coffee",
     "README.md",
     "LICENSE",
-    "my-plugin-config-schema.coffee"
+    "motion-blinds-config-schema.coffee"
   ],
   "keywords": [
     "pimatic",
@@ -19,16 +19,17 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/pimatic/pimatic-plugin-template.git"
+    "url": "git://github.com/pimatic/pimatic-motion-blinds.git"
   },
-  "configSchema": "my-plugin-config-schema.coffee",
-  "dependencies": {
-  },
+  "configSchema": "motion-blinds-config-schema.coffee",
   "peerDependencies": {
     "pimatic": "0.9.*"
   },
   "engines": {
     "node": ">=4",
     "npm": ">=2"
+  },
+  "dependencies": {
+    "motionblinds": "^1.0.0"
   }
 }
